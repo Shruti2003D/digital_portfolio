@@ -5,6 +5,8 @@ import Home from "./components/Home";
 import NavBar from "./components/NavBar";
 import Project from "./components/Project";
 import SocialLinks from "./components/SocialLinks";
+import { Education,Experience} from "./components/Education";
+
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
       <NavBar />
       <Home />
       <About />
+      <Education/>
+      <Experience/>
       <Project />
       <Skills />
       <Contact />

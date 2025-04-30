@@ -1,9 +1,9 @@
 
 import React, { useState } from "react";
-import arrayDestruct from "../assets/portfolio/Homeokart-Home.jpg";
-import navbar from "../assets/portfolio/Combat-Game.jpg";
-import reactParallax from "../assets/portfolio/Video-Streaming-Platform.png";
 import reactSmooth from "../assets/portfolio/microprocessor.jpg";
+import Project3 from "../assets/portfolio/project4(mentorbot).png"
+import Project2 from "../assets/portfolio/Project2.png"
+import Project1 from "../assets/portfolio/Project1.png"
 
 const Portfolio = () => {
   const [showModal, setShowModal] = useState(false);
@@ -12,34 +12,34 @@ const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: arrayDestruct,
-      gitLink: "https://github.com/TusharJain2000/HomeoKart",
-      liveLink: "https://homeokart.onrender.com/",
-      title: "HomeoKart",
-      description: "An e-commerce platform for homeopathic medicines built with React and Node.js. Features include user authentication, shopping cart, and secure payment integration."
+      src: Project1,
+      gitLink: "https://github.com/Shruti2003D/Capstone-project",
+      liveLink: "https://onlinesaleshackathon.netlify.app/",
+      title: "Personalized Email Generator",
+      description: " Personalized Email Generation and Automation Description: Leverage machine learning and web scraping to generate highly personalized emails for marketing campaigns, extracting relevant data from LinkedIn and creating impactful visual content. Technologies: Machine learning, web scraping, image generation"
     },
     {
       id: 2,
-      src: reactParallax,
+      src: Project2,
+      gitLink: "https://github.com/Shruti2003D/age_gendetect",
+      liveLink: "https://github.com/TusharJain2000/Backend-using-JavaScript",
+      title: "Fusion-Identity",
+      description: "Its an innovative AI-ML project designed to accurately predict age and gender through the integration of ensemble learning techniques. Leveraging the power of multiple models working in tandem, this system ensures robust and precise predictions for diverse demographic scenarios"},
+    {
+      id: 3,
+      src: Project3,
       gitLink: "https://github.com/Shruti2003D/decrypt0",
       liveLink: "https://github.com/TusharJain2000/Backend-using-JavaScript",
       title: "MenterBots",
       description: "Menter Bot: A user-friendly learning platform that facilitates course enrollment, study material download, and personalized progress tracking.A modern web application for online learning, featuring course catalogs, user authentication, and study material management."},
-    {
-      id: 3,
-      src: navbar,
-      gitLink: "https://github.com/TusharJain2000/Combat-Game",
-      liveLink: "https://tusharjain2000.github.io/Combat-Game/",
-      title: "Combat Game",
-      description: "An interactive browser-based combat game developed using JavaScript. Features include multiplayer support and real-time gameplay mechanics."
-    },
+ 
     {
       id: 4,
       src: reactSmooth,
       gitLink: "https://github.com/TusharJain2000/8085-Microprocessor",
       liveLink: "https://github.com/TusharJain2000/8085-Microprocessor",
-      title: "8085 Microprocessor",
-      description: "A simulation of the 8085 microprocessor architecture. Demonstrates assembly language programming and hardware interactions."
+      title: "Employee Payroll System ",
+      description: "Develop a comprehensive employee management system using Spring MVC, featuring interactive dashboards, payroll and leave management, and robust security features. Technologies: Spring MVC, Java, Database Integration, Security"
     },
   ];
 
