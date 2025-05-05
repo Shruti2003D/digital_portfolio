@@ -1,6 +1,6 @@
 
 import React, { useState } from "react";
-import reactSmooth from "../assets/portfolio/microprocessor.jpg";
+import reactSmooth from "../assets/portfolio/Project3.png";
 import Project3 from "../assets/portfolio/project4(mentorbot).png"
 import Project2 from "../assets/portfolio/Project2.png"
 import Project1 from "../assets/portfolio/Project1.png"
