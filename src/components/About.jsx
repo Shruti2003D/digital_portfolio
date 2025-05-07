@@ -11,20 +11,22 @@ const About = () => {
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
             About
           </p>
-        </div>
-        <p className="text-xl mt-4">
-          Hi, my name is<span className="font-bold">{" Shruti Milind Dhumal"}</span> and I am currently a{" "}
-          <span className="font-bold">{" BTech Student"}</span>
-          {" "} studying in{" "}<span className="font-bold">{"MIT Academy of engineering"}</span> pursuing <span className="font-bold">{" Bachelors in Technology in Computer Science."}</span>
-        </p>
-        <p className="text-xl mt-4">
-          I'm currently interning at <span className="font-bold">{"Candescent"}</span> where I'm gaining hands-on experience in the field. Prior to this, I completed a successful internship at <span className="font-bold">{"Colgate"}</span> as a Data Engineer for 6 months.
-        </p>
-        <p className="text-xl mt-4">
-          In my free time, I enjoy playing carrom and traveling, I am always seeking new experiences and love to keep myself engaged and learning new things.
-        </p>
-      </div>
-    </div>
+          <div>
+  <p className="text-xl mt-4">
+    Hi, my name is <span className="font-bold">{"Shruti Dhumal"}</span> and I am currently a <span className="font-bold">{"BTech Student"}</span>
+    {" "}studying in <span className="font-bold">{"Mit Academy Of Engineering"}</span> pursuing <span className="font-bold">{"Bachelors in Technology in Computer Science and Engineering."}</span>
+  </p>
+  <p className="text-xl mt-4">
+    I'm currently interning as a <span className="font-bold">{"Software Development Engineer"}</span> at <span className="font-bold">{"Candescent"}</span>, where I'm leading the development of digital banking solutions. Prior to this, I completed a successful internship at <span className="font-bold">{"Colgate"}</span> as a <span className="font-bold">{"Data Engineering Intern"}</span> for 6 months.
+  </p>
+  <p className="text-xl mt-4">
+    My long-term goal is to become a <span className="font-bold">{"Technical Lead"}</span> in a renowned tech company and contribute to the development of innovative solutions that can benefit society.
+  </p>
+</div>
+</div>
+</div>
+</div>
+
   );
 };
 

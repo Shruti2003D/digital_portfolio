@@ -46,6 +46,7 @@ const Education = () => {
             Education
           </p>
           <p className="py-6">My academic journey</p>
+          <p className="py-6">Navigating the world of academia, with a passion for learning</p>
         </div>
 
         <div className="grid gap-8 px-12 sm:px-0">
